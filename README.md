@@ -56,6 +56,8 @@ Here are databases structure:
   │   └── Res.nsq
   │   └── Res.ndb
   │   └── Res.not
+  │   └── Res.nto
+  │   └── Res.ntf
   └── TransposonDB
       ├── Transposon.fasta  Transposon reference sequences in FASTA format
       │                     sequence id must be description|accession,eg: Tn2009|CP001937
@@ -67,12 +69,9 @@ Here are databases structure:
 
 filename  | description
 ---- | -----
-*.gb | GENBANK format annotation
-AMR.tsv | filtered resistance annotation
-AMR.possible.tsv | all possible resistance annotation
-replicon.tsv | replicon annotation
-integron.filter.tsv | most like integron
-integron.detail.tsv | integron_finder result,detail descripton of integron structure
-transposon.filter.tsv | transposon element after overlap screen
-transposon.possible.tsv | all possible transposon element
-annotation.html | output visualization
+AMRgene.txt | resistance gene annotation
+pdif_site.txt | pdif site annotation
+pdifmodule_list.txt | pdif-ARGs module annotation
+pdifmoduleseq.fasta | pdif-ARGs module sequence
+pdifmodule.svg | pdif-ARGs figure
+plasmid.html | circular graph for above features
