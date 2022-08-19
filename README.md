@@ -62,9 +62,8 @@ Here are databases structure:
       ├── redundant.seed.fa  Pdif site reference sequences in FASTA format
                              sequence id must be database >plasmid accession number in NCBI
                              eg: >KY984047.1_1 ACTGCGCATAAGAGATTTTATGTTAAAT
-      ├── Transposon.nhr
-      ├── Transposon.nin
-      └── Transposon.nsq
+      ├── pdifdatabase.fasta ALL pdif sites from 481 plasmids
+      └── genecolor.txt
 </pre>      
 ### Output:
 
