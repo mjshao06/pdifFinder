@@ -9,12 +9,12 @@ This program is designed for annotation of antimicrobal resistance(AMR), pdif si
 
 ### Install:
 PdifFinder is a python3.X script, running on linux. 
-You should install BLAST and add it in environment variable, you can download from `https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/`. BLAST version is 2.10.1 in bacant.
+You should install BLAST and add it in environment variable, you can download from `https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/`. BLAST version is 2.10.1 in pdifFinder.
 
 * One:
   You can download from github by `git clone https://github.com/mjshao06/pdifFinder.git`. Then execute `python setup.py install`.
 * Two:
-  You can install BacAnt from [PyPI](https://pypi.org/project/PdifFinder) by `pip install PdifFinder`.
+  You can install PdifFinder from [PyPI](https://pypi.org/project/PdifFinder) by `pip install PdifFinder`.
 
 
 ### Run:
@@ -58,9 +58,10 @@ Here are databases structure:
   │   └── Res.not
   │   └── Res.nto
   │   └── Res.ntf
-  └── TransposonDB
-      ├── Transposon.fasta  Transposon reference sequences in FASTA format
-      │                     sequence id must be description|accession,eg: Tn2009|CP001937
+  └── data
+      ├── redundant.seed.fa  Pdif site reference sequences in FASTA format
+                             sequence id must be database >plasmid accession number in NCBI
+                             eg: >KY984047.1_1 ACTGCGCATAAGAGATTTTATGTTAAAT
       ├── Transposon.nhr
       ├── Transposon.nin
       └── Transposon.nsq
