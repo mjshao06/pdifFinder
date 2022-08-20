@@ -12,7 +12,7 @@ PdifFinder is a python3.X script, running on linux.
 You should install BLAST and add it in environment variable, you can download from `https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/`. BLAST version is 2.10.1 in pdifFinder.
 
 * One:
-  You can download from github by `git clone https://github.com/mjshao06/pdifFinder.git`. Then execute `cd pdifFinder` `pip install .`.
+  You can download from github by `git clone https://github.com/mjshao06/pdifFinder.git`. Then execute `cd pdifFinder`. Last execute `pip install .`.
 * Two:
   You can install PdifFinder from [PyPI](https://pypi.org/project/PdifFinder) by `pip install PdifFinder`.
 
