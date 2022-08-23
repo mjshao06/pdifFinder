@@ -48,8 +48,9 @@ def arg_parse():
         *      ****  *  *      *      *  ****  *****  * *
         *      *  *  *  *      *      *  *  *  *      *  *
         *      ****  *  *      *      *  ****  *****  *    *
-    Author:     Shao Mengjie
-    Email:      1437819081@qq.com
+    Author:     Shao Mengjie;Liang Qian
+    Department:	Hangzhou Digital-Micro Biotech Co.,Ltd
+    Email:      1437819081@qq.com;norah-liang@dmicrobe.com
     This is a tool for pdif site and pdif-ARGs module search.This script accepts FASTA file or GENBANK file(plasmid sequence less than 1M).
     Output includes:
            AMRgene.txt            resistance gene

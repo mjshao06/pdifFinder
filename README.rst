@@ -1,8 +1,8 @@
-Author: Shao Mengjie at 20220803
+Author: Shao Mengjie, Liang Qian at 20220803
 
-Email: xiaotinghua@zju.edu.cn
+Email: 1437819081@qq.com; norah-liang@dmicrobe.com
 
-institute: Key laboratory of Microbiol technology and Bioinformatics of Zhejiang Province
+Institute: Hangzhou Digital-Micro Biotech Co.,Ltd
 
 This program is designed for annotation of antimicrobal resistance(AMR), pdif site and pdif-ARGs module in bacteria.
 
