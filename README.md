@@ -1,9 +1,9 @@
 # PdifFinder
-Author:     Shao Mengjie
+Author:     Shao Mengjie; Liang Qian
 
-Email:      xiaotinghua@zju.edu.cn
+Email:      1437819081@qq.com; norah-liang@dmicrobe.com
 
-institute:  Key laboratory of Microbiol technology and Bioinformatics of Zhejiang Province
+Institute:  Hangzhou Digital-Micro Biotech Co.,Ltd
 
 This program is designed for annotation of antimicrobal resistance(AMR), pdif site and pdif-ARGs module in bacteria.
 
@@ -41,10 +41,7 @@ parameter  | description
 --map(-c) | output graph format,default is circle
 
 ### Databases:
-We have updated database to v2.0(2021.05.11) since BacAnt-v3.3.1. You can download from [here](http://bacant.net/static/database/v2.0/bacant-db-v2.0.tar.gz).
-User can define their custom databases, and when run bacant ,just add parameter -p(--path) for databases dirname.
 Here are databases structure:
-
 <pre>
   .
   ├── AMRDB
