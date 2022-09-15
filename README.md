@@ -28,7 +28,7 @@ pdifFinder -d inputdir -o outdir
 ```
 * For more parameter, you can run:
 ```
-bacant -h
+pdifFinder -h
 ```
 * Here are some import parameter:
 
